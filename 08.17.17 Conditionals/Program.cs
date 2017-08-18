@@ -10,6 +10,19 @@ namespace _08._17._17_Conditionals
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Enter your age:");
+            int age = int.Parse(Console.ReadLine());
+
+            if(age >= 17)
+            {
+                Console.WriteLine("You are allowed to see the movie.");
+            }
+
+            else
+            {
+                Console.WriteLine("Sorry, you are too young to watch this movie!");
+            }
         }
     }
 }
